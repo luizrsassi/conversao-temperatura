@@ -40,4 +40,4 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            luizrsassi/aula-conversao-temperatura:v1
+            luizrsassi/aula-conversao-temperatura:${{github.run_number}}
